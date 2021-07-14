@@ -1,0 +1,16 @@
+.parent {
+    border: 2px solid black;
+}
+
+.childs {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    width: 180px;
+    height: 60px;
+}
+
+.childs:hover{
+    background-color: honeydew;
+    color: red;
+}
