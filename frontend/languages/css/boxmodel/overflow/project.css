@@ -1,0 +1,38 @@
+.dropbutton {
+    background-color: red;
+    color: seashell;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: chartreuse;
+    min-width: 180px;
+    box-shadow: 0px 10px 18px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: darkblue;
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: hotpink;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

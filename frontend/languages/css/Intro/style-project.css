@@ -1,12 +1,14 @@
 .parent {
     border: 2px solid black;
+   
 }
 
 .childs {
+   
     display: inline-block;
     background-color: black;
     color: whitesmoke;
-    width: 180px;
+    width: 185px;
     height: 60px;
 }
 
