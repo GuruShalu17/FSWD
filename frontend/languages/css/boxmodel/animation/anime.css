@@ -1,0 +1,33 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color:green;
+    animation-name: Sample;
+    animation-duration: 4s;
+}
+
+@keyframes Sample {
+    0% {
+        background-color: greenyellow;
+        left: 0px;
+        top: 0px;
+    }
+    20% {
+        background-color: yellow;
+        left: 300px;
+        top: 100px;
+
+    }
+    50% {
+        background-color: tomato;
+        left: 600px;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 900px;
+        top: 300px;
+    }
+
+}
