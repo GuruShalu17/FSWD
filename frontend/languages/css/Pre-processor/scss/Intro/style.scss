@@ -1,0 +1,29 @@
+@import "./generals/colors";
+@import "./generals/fonts";
+@import "./generals/mixins";
+@import "./generals/variables";
+@import "./generals/secondary";
+
+.name{
+    background-color: $gs
+}
+
+.name2{
+    background-color: $color
+}
+
+.parent{
+    @include lover(orange,300px,300px)
+    @include brother;
+
+     .children{
+         @include lover(plum,200px,200px)
+         @include brother;
+
+          .grandchildren{
+               @include lover(lightblue,100px,100px)
+               @include brother;
+          }
+     }
+
+}

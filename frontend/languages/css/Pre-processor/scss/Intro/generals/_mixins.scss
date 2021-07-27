@@ -1,0 +1,9 @@
+@mixin brother {
+    font-size: 25px;
+}
+
+@mixin lover ($slap,$kiss,$hugs){
+    background-color: $slap;
+    width: $kiss;
+    height: $hugs;
+}
