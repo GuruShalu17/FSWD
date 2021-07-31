@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body>
+       
+        
+        <center><h1>My Sample Calculator</h1></center>
+
+      <center><div class="loveshalu">
+          
+
+            <label for="">Numero One</label><br>
+            <input id="no1" type="number"><br>
+            <label for="">Numero Two</label><br>
+            <input id="no2" type="number"><br>
+
+            <button onclick="plus()">Addition</button>
+            <button onclick="minus()">Subtraction</button>
+            <button onclick="times()">Multiplication</button>
+            <button onclick="divide()">Subtraction</button>
+
+            <h2 id="gurushalu"></h2>
+
+        
+        </div></center>  
+
+        <script>
+
+            function plus(){
+                var a= document.getElementById('no1').value;
+                var b= document.getElementById('no2').value;
+                var value= Number(a) + Number(b)
+
+                document.getElementById('gurushalu').innerHTML=value
+            }
+
+            function minus(){
+                var a= document.getElementById('no1').value;
+                var b= document.getElementById('no2').value;
+                var value= Number(a) - Number(b)
+
+                document.getElementById('gurushalu').innerHTML=value
+            }
+
+            function times(){
+                var a= document.getElementById('no1').value;
+                var b= document.getElementById('no2').value;
+                var value= Number(a) * Number(b)
+
+                document.getElementById('gurushalu').innerHTML=value
+            }
+
+            function divide(){
+                var a= document.getElementById('no1').value;
+                var b= document.getElementById('no2').value;
+                var value= Number(a) / Number(b)
+
+                document.getElementById('gurushalu').innerHTML=value
+            }
+        </script>
+    </body>
+</html>

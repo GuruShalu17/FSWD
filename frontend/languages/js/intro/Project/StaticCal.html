@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="StaticCal.css">
+    </head>
+    <body>
+       <h1>Easy Calculator</h1>
+
+       <div class="gs">
+           <h1>20 / 10</h1>
+           <button onclick="addition()">Click to get Total</button>
+           <h2 id="g"></h2>
+       </div>
+        
+        <script>
+            function addition(){
+            var add1=20;
+            var add2=10;
+            var total=add1 / add2; 
+            document.getElementById("g").innerHTML=total
+            }  
+        </script>
+    </body>
+</html>
