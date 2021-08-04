@@ -1,0 +1,13 @@
+img {
+    border-radius: 50%;
+    border: 3px solid maroon;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/b1/73/b1/b173b1e8d57a3f16d40c44f4b1c7e3ee.jpg);
+    
+}

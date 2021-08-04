@@ -1,0 +1,25 @@
+body,div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grandma{
+    background-color: green;
+    width: 350px;
+    height: 350px;
+}
+
+.mother{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+}
+
+.daughter{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="projectevent.css">
+    </head>
+
+    <body>
+        
+        <img class="gsc" src="gsc.jpg" alt="gsc">
+        <img class="kfc" src="kfc.jpg" alt="kfc" >
+        <img class="kawasaki" src="kawasaki.jpg" alt="kawasaki">
+        <img class="samsung" src="samsung.jpg" alt="samsung">
+        
+    </body>
+
+    <script>
+
+        const gsc=document.querySelector('.gsc');
+        const kfc=document.querySelector('.kfc');
+        const kawasaki=document.querySelector('.kawasaki');
+        const samsung=document.querySelector('.samsung');
+
+        gsc.addEventListener("click",(a)=>{
+            console.log(a.target);
+            location.replace("https://www.gsc.com.my/main/home")
+        })
+
+        kfc.addEventListener("click",(b)=>{
+            console.log(b.target);
+            location.replace("https://kfc.com.my/")
+        })
+
+        kawasaki.addEventListener("click",(c)=>{
+            console.log(c.target);
+            location.replace("https://www.kawasaki.com.my/home/")
+        })
+
+        samsung.addEventListener("click",(d)=>{
+            console.log(d.target);
+            location.replace("https://www.samsung.com/my/mobile/")
+        })
+
+        
+    </script>
+
+</html>
