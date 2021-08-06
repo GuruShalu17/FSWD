@@ -1,0 +1,43 @@
+<script>
+
+    class Novo{
+    constructor(email,name){
+        this.email=email;
+        this.name=name;
+        this.score=0;
+    }
+
+    login(){
+        console.log(this.email,": Logged In")
+        return this;
+    }
+
+    logout(){
+        console.log(this.email,": Logged Out")
+        return this;
+    }
+
+    updatescore(){
+        this.score++;
+        console.log(this.email,": The Score Is",this.score)
+        return this;
+    }
+    
+    }
+
+    var novo1=new Novo("siva@gmail.com","Siva")
+    var novo2=new Novo("shalu@gmail.com","Shalu")
+
+</script>
+
+<script>
+
+    class Filho extends Novo{
+        check(){
+            console.log("Im a Child of user")
+        }    
+    }
+
+    var childone=new Filho();
+
+</script>

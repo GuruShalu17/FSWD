@@ -1,0 +1,12 @@
+<script>
+
+    async function guruapi(){
+        const data=await fetch("https://api.github.com/users");
+        const data2=await data.json();
+        return data2
+    }
+
+    let siva=guruapi()
+    siva.then((res)=>{console.log(res)})
+    
+</script>

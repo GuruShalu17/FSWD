@@ -1,0 +1,13 @@
+<script>
+
+    function guruapi(){
+        const data=fetch("https://api.github.com/users").then((resp)=>{
+            return resp.text()
+        }).then((resp1)=>{
+            console.log(resp1);
+        })
+        return data
+    }
+    guruapi()
+    
+</script>
