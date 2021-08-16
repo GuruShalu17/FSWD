@@ -1,11 +1,10 @@
-
 import name from  './karshan-present.js'
-import name2 from "./karthik-present.js"
-import name3 from "./shalini-present.js"
+import name2 from './karthik-present.js'
+import name3 from './shalini-present.js'
 
-import { gift1,gift2 } from "./karshan-present.js"
-import { gift3,gift4 } from "./karthik-present.js"
-import { gift5,gift6 } from "./shalini-present.js"
+import { gift1,gift2 } from './karshan-present.js'
+import { gift3,gift4 } from './karthik-present.js'
+import { gift5,gift6 } from './shalini-present.js'
 
 console.log(name)
 console.log(gift1,gift2)
