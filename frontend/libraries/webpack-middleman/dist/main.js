@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Vanakam All"),console.log("Never Give Up")})();

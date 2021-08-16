@@ -1,0 +1,15 @@
+{
+  "name": "webpack-middleman",
+  "version": "1.0.0",
+  "description": "\"learning\"",
+  "main": "index.js",
+  "scripts": {
+    "dating": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
