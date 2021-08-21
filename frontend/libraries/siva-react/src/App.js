@@ -1,11 +1,11 @@
 
-import { Home } from './pages/Home';
+import {LoginPage} from './pages/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
-    <Home/>
+    <LoginPage/>
   )
 }
 
