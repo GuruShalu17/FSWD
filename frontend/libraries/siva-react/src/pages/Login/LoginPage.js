@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import {Cards2} from '../../components/Cards'
-import {Slides2} from '../../components/Slides'
+import {Forms1} from '../../components/Forms1'
 import { MainHeader2 } from '../../components/MainHeader'
 
 function LoginPage() {
@@ -15,23 +14,13 @@ function LoginPage() {
                 </Row>
                 <br/>
                 <Row>
+                    <Col></Col>
                     <Col>
-                    <Slides2/>
+                    <Forms1/>
                     </Col>
+                    <Col></Col>
                 </Row>
-                <br/>
-                <Row>
-                    <Col>
-                    <Cards2/>
-                    </Col>
-                    <Col>
-                    <Cards2/>
-                    </Col>
-                    <Col>
-                    <Cards2/>
-                    </Col>
-                </Row>
-                <br/>
+                
             </Container>
         </>
     )

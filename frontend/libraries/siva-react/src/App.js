@@ -1,11 +1,20 @@
-
-import {LoginPage} from './pages/Login';
+import {Home} from './pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {LoginPage} from './pages/Login';
+import {BrowserRouter as Router, Route, } from 'react-router-dom'
 
 
 function App() {
   return (
-    <LoginPage/>
+    <>
+    <Router>
+
+    <Route exact path="/" render={()=><Home/>}/>
+
+    <Route exact path="/login" render={()=><LoginPage/>}/>
+   
+    </Router>
+  </>  
   )
 }
 
