@@ -1,6 +1,8 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
+import GetApi from '../../components/Api/GetApi'
 import {Forms1} from '../../components/Forms1'
+import BarBistro from '../../components/LifeCycleMethod/BarBistro'
 import { MainHeader2 } from '../../components/MainHeader'
 
 function LoginPage() {
@@ -14,11 +16,15 @@ function LoginPage() {
                 </Row>
                 <br/>
                 <Row>
-                    <Col></Col>
+                    <Col>
+                    <BarBistro/>
+                    </Col>
                     <Col>
                     <Forms1/>
                     </Col>
-                    <Col></Col>
+                    <Col>
+                    <GetApi/>
+                    </Col>
                 </Row>
                 
             </Container>

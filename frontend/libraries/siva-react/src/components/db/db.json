@@ -1,0 +1,22 @@
+{
+  "students" : [
+    {
+      "id": 1,
+      "name":"siva",
+      "beverage":"milkshake"
+    },
+    {
+      "id": 2,
+      "name":"shalu",
+      "beverage":"chocolate milk"
+    },
+    {
+      "id": 3,
+      "name":"diya",
+      "beverage":"miloshake"
+    }
+
+    
+  ]
+
+}
