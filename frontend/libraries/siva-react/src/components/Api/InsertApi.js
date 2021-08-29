@@ -1,11 +1,14 @@
 import React, {useState} from 'react'
 
+
 function InsertApi() {
 
     const [name, setName] = useState("")
     const [beverage, setBeverage] = useState("")
 
+
 function saveUser(){
+    console.log(name,beverage)
 
     let data = {name,beverage} 
 

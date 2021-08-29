@@ -4,6 +4,7 @@ import {LoginPage} from './pages/Login';
 import {BrowserRouter as Router, Route, Switch, } from 'react-router-dom'
 import GetApi from './components/Api/GetApi';
 import InsertApi from './components/Api/InsertApi';
+import EditApi from './components/Api/EditApi';
 
 
 function App() {
@@ -29,6 +30,12 @@ function App() {
 
     <InsertApi />  
     </Route>  
+    </Switch>
+
+    <Switch>
+    <Route exact path="/callAllApis">
+    <EditApi/>
+    </Route>
     </Switch>
 
 

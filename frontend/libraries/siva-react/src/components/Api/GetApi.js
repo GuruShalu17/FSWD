@@ -7,14 +7,15 @@ function GetApi() {
     useEffect(()=>{
         fetch('http://localhost:3004/students').then((result)=>{
             result.json().then((resp)=>{
+                console.log(resp)
                 setData(resp)
             })
         })
-    })
+    },[])
 
     return (
         <>
-           <h1>get Api</h1> 
+           <h1>Data Fetch</h1> 
            <table border="1">
                <tr>
                    <td>id</td>
@@ -23,10 +24,10 @@ function GetApi() {
                </tr>
 
         {
-            data.map((stu)=><tr>
-                <td>{stu.id}</td>
-                <td>{stu.name}</td>
-                <td>{stu.beverage}</td>
+            data.map((item)=><tr>
+                <td>{item.id}</td>
+                <td>{item.name}</td>
+                <td>{item.beverage}</td>
             </tr>)
         }       
            </table>
