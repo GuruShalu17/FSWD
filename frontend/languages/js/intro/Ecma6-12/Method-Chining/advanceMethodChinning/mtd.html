@@ -1,0 +1,26 @@
+<script>
+
+class User{
+constructor(email,name){
+this.email=email,
+this.email=name
+}
+
+login(){
+    console.log(this.email,"just logged in")
+    return this;
+}
+
+logout(){
+    console.log(this.email,"just logged out")
+    return this;
+}
+
+}
+
+var UserOne=new User('siva@gmail.com','siva')
+var U2=new User('guru@yahoo.com','guru')
+UserOne.login().logout()
+U2.login().logout()
+
+</script>
